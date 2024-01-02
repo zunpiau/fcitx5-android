@@ -193,8 +193,9 @@ class CommaKey(
 )
 
 class LanguageKey : KeyDef(
-    Appearance.Image(
-        src = R.drawable.ic_baseline_language_24,
+    Appearance.Text(
+        " ",
+        textSize = 16f,
         variant = Variant.AltForeground,
         viewId = R.id.button_lang
     ),
